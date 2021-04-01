@@ -152,6 +152,9 @@
 
 <script src="{{asset('js/pusherNotifications.js')}}"></script>
 
+@yield('scripts')
+
+
 
 </body>
 </html>

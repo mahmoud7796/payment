@@ -11,7 +11,7 @@ class Order extends Model
     protected $hidden =['created_at','updated_at'];
     public $timestamps = false;
 
-    public function orders(){
+    public function offers(){
         $this -> belongsTo(Offer::class,'offer_id','id');
     }
 }

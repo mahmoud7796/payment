@@ -32,9 +32,13 @@ Route::post('comment', 'HomeController@saveComment')->name('comment.save');
 
 Route::group(['prefix' => 'offers', 'middleware'=> 'auth'], function(){
     Route::get('/index', 'paymentController@index')->name('index');
+    Route::get('/orders/{id}', 'paymentController@orders')->name('offers.details');
 });
 
-Route::get('/orders/{id}', 'paymentController@orders')->name('offers.details');
+Route::get('/checkout_id', 'paymentController@checkout_id')->name('offers.checkout');
+Route::get('/test_object', 'testController@test_object')->name('test_object');
+Route::get('/object/{id}', 'testController@object')->name('test_object.details');
+
 
 ######## end Payments methode #######
 
