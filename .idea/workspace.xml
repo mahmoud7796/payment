@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2773e8f4-d149-42ba-9d70-235a57bdf07f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/testController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ajax/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/detailst.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/indext.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/paymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/paymentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/MailCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/NameHere.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/TestMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/datas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +151,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -188,7 +182,10 @@
       <workItem from="1617116563240" duration="8757000" />
       <workItem from="1617189459768" duration="23155000" />
       <workItem from="1617273958130" duration="1090000" />
-      <workItem from="1617285721267" duration="44000" />
+      <workItem from="1617285762863" duration="4412000" />
+      <workItem from="1617304135722" duration="1307000" />
+      <workItem from="1617307545983" duration="4389000" />
+      <workItem from="1617314768024" duration="702000" />
     </task>
     <servers />
   </component>

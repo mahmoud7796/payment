@@ -15,7 +15,7 @@
                 <br>
                 <br>
 
-                <a id="checkout" href="{{route('offers.checkout', $details -> price )}}"
+                <a id="checkout"
                    role="button" class="btn  btn-success px-3 waves-effect waves-light"> شراء المنتج
                 </a>
             </div>
@@ -75,8 +75,6 @@
                     data: {
                         price: $('#price').text(),
                         offer_id: "{{$details -> id}}",
-
-
                     },
 
                     success: function (data){
