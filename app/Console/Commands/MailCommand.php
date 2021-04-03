@@ -11,14 +11,14 @@ class MailCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'MailSent';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'test to mail million data';
 
     /**
      * Create a new command instance.
@@ -37,6 +37,6 @@ class MailCommand extends Command
      */
     public function handle()
     {
-        return 0;
+
     }
 }
