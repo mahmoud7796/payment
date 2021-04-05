@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2773e8f4-d149-42ba-9d70-235a57bdf07f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/mailer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/real2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/real2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/MailCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/MailCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/NameHere.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/TestMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/TestMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +186,8 @@
       <workItem from="1617314768024" duration="702000" />
       <workItem from="1617395848067" duration="440000" />
       <workItem from="1617397727474" duration="14353000" />
+      <workItem from="1617572808915" duration="6333000" />
+      <workItem from="1617646149253" duration="3342000" />
     </task>
     <servers />
   </component>
