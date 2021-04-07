@@ -47,6 +47,8 @@ Route::get('/mail', 'mailTest@mail_sent')->name('mailsent');
 Route::get('/coll', 'mailTest@coll')->name('coll');
 Route::get('/complex', 'mailTest@complex')->name('complex');
 Route::get('/complex1', 'mailTest@complex1')->name('complex1');
+Route::get('/complexTransform', 'mailTest@complexTransform')->name('complexTransform');
+Route::get('/form', 'mailTest@form')->name('form');
 
 
 ######## end sent mail #######

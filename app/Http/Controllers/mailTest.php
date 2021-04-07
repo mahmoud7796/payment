@@ -27,11 +27,11 @@ class mailTest extends Controller
     }
 
     public function mail_sent(){
-         $emails = datas::select('emails')->get();
+        return $emails = datas::select('emails')->get();
 
        foreach ($emails as $v) {
-           echo $v ->emails;
-         //Mail::to($v-> emails)->send(new TestMail());
+           echo  $v -> emails;
+        // Mail::to($v-> emails)->send(new TestMail());
         }
     }
 
@@ -52,21 +52,49 @@ class mailTest extends Controller
         $nums =  datas::get();
         $coll=  collect($nums);
        $each = $coll -> each(function($category){
-             unset($category -> emails);
+           if($category-> emails == 'kapoo9595@gmail.com'){
+               unset($category -> emails);   //remove from the collection
+           }
+             //unset($category -> emails);   //remove from the collection
+           //$category -> emails  = 'add something'; // replace the value of the key
         });
-       return $each;
-
-
+        return $nums;
     }
 
     public function complex(){
 
         $nums =  datas::get();
           $coll=  collect($nums);
-      $filter =  $coll -> filter(function ($value, $key){
+         $filter =  $coll -> filter(function ($value, $key){
             return  $value['emails'] == 'mahmoud12@gmail.com';
         });
-        return  $filter;
+         $array = array_values($filter-> all())[0];
+        return  $array['emails'];
     }
+
+    public function complexTransform(){
+
+        $nums =  datas::get();
+        $coll=  collect($nums);
+       return  $transform =  $coll -> transform(function ($value, $key){
+
+           return $value['emails'];
+           //add  Keys and value you want
+           $data = [];
+           $data['betengan'] = $value['emails'];
+           $data['name'] = 'mahmoud diab diab';
+            return $data;
+        });
+        $array = array_values($filter-> all())[0];
+        return  $array['emails'];
+    }
+
+    public function form(){
+       return view('date');
+
+
+
+    }
+
 
 }

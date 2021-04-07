@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2773e8f4-d149-42ba-9d70-235a57bdf07f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/date.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/real2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/real2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +191,12 @@
       <workItem from="1617397727474" duration="14353000" />
       <workItem from="1617572808915" duration="6333000" />
       <workItem from="1617646149253" duration="3342000" />
+      <workItem from="1617701399544" duration="3842000" />
+      <workItem from="1617706497286" duration="4000" />
+      <workItem from="1617709867887" duration="338000" />
+      <workItem from="1617710428104" duration="5059000" />
+      <workItem from="1617748199969" duration="2698000" />
+      <workItem from="1617801659892" duration="7310000" />
     </task>
     <servers />
   </component>
