@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\sentMail;
 use App\Mail\TestMail;
 use App\Models\datas;
 use App\Models\Offer;
@@ -27,12 +28,9 @@ class mailTest extends Controller
     }
 
     public function mail_sent(){
-        return $emails = datas::select('emails')->get();
-
-       foreach ($emails as $v) {
-           echo  $v -> emails;
-        // Mail::to($v-> emails)->send(new TestMail());
-        }
+         $emails = datas::chunk(50, function($data){
+             dispatch(new sentMail($data));
+         });
     }
 
      public function coll(){
@@ -89,7 +87,7 @@ class mailTest extends Controller
         return  $array['emails'];
     }
 
-    public function form(){
+    public function date(){
        return view('date');
 
 

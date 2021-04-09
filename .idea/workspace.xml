@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2773e8f4-d149-42ba-9d70-235a57bdf07f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/date.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/real2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/real2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/sentMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_08_200831_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/appTest.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/mailTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/date.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/date.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -152,12 +157,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ORG\برمجة\Laravel\Advanced in laravel\payment\resources\views\layouts" />
       <recent name="D:\ORG\برمجة\Laravel\Advanced in laravel\payment\resources\views" />
       <recent name="F:\O R G\برمجة\Laravel\real2\resources\views\front" />
       <recent name="F:\O R G\برمجة\Laravel\real2\resources\views\ajax" />
@@ -196,7 +202,10 @@
       <workItem from="1617709867887" duration="338000" />
       <workItem from="1617710428104" duration="5059000" />
       <workItem from="1617748199969" duration="2698000" />
-      <workItem from="1617801659892" duration="7310000" />
+      <workItem from="1617801659892" duration="7726000" />
+      <workItem from="1617907562724" duration="233000" />
+      <workItem from="1617908012818" duration="1998000" />
+      <workItem from="1617911403468" duration="6239000" />
     </task>
     <servers />
   </component>
